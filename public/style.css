@@ -1,0 +1,28 @@
+body
+{
+	background-color:white;
+	
+}
+.jumbotron
+{
+	background-color: #2a7886;
+}
+footer
+{
+	background-color: #2a7886;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.konyvek
+{
+	display:flex;
+	align-content:center;
+	align-items: center;
+}
+.isDisabled {
+	color: currentColor;
+	cursor: not-allowed;
+	opacity: 0.5;
+	text-decoration: none;
+  }
