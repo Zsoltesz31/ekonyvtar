@@ -8,9 +8,9 @@ define('DATABASE_CONTROLLER', PROTECTED_DIR.'database.php');
 define('USER_MANAGER', PROTECTED_DIR.'usermanager.php');
 
 define('DB_TYPE', 'mysql');
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'y8ep7v');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', $_ENV["host"]);
+define('DB_NAME', 'zsolti_website');
+define('DB_USER', $_ENV["user"]);
+define('DB_PASS', $_ENV["pass"]);
 define('DB_CHARSET', 'utf8');
 ?>
